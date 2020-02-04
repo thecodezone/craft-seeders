@@ -1,0 +1,40 @@
+{
+    "name": "thecodezone/seeders",
+    "description": "Create custom seeder classes in Craft3. ",
+    "type": "craft-plugin",
+    "version": "0.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "seeders"
+    ],
+    "support": {
+        "docs": "https://github.com/thecodezone/seeders/blob/master/README.md",
+        "issues": "https://github.com/thecodezone/seeders/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "CodeZone",
+            "homepage": "https://codezone.io"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "CodeZone\\seeders\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "seeders",
+        "handle": "seeders",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/thecodezone/seeders/master/CHANGELOG.md",
+        "class": "CodeZone\\seeders\\Seeders"
+    }
+}
