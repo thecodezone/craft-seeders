@@ -1,5 +1,5 @@
 {
-    "name": "thecodezone/seeders",
+    "name": "thecodezone/craft-seeders",
     "description": "Create custom seeder classes in Craft3.",
     "type": "craft-plugin",
     "keywords": [
